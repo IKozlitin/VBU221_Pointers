@@ -23,5 +23,5 @@ void Exchange(int& a, int& b)
 	int buffer = a;
 	a = b;
 	b = buffer;
-	//cout << a << "\t" << b << endl;
+	cout << a << "\t" << b << endl;
 }
